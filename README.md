@@ -16,11 +16,10 @@ JSON structure for graph API
 }
 *************************************
 npm packages:
-pg
-express
+pg,
+express,
 bodyparser
 *************************************
 WORKING
 -------
-API listens at port 4000.On the JSON input(exactly the same structure) the api saves the nodes of graph in table(NODES) and edges in 
-table(EDGES).basically its an adjacensy list being saved in a postgre database.
+API listens at port 4000.On the JSON input(exactly the same structure) the api saves the nodes of graph in table(NODES) and edges in table(EDGES).basically its an adjacensy list being saved in a postgre database.
